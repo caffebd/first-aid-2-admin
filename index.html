@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>First Aid</title>
+</head>
+<div>
+    <h1>First Aid</h1>
+    <img src="/assets/first-aid.png" alt="" height="170px">
+    <br>
+
+
+    
+    <button class="quickBtn" 
+        onclick="searchEmergencyDetails('heart attack')"
+        id="quickBtn" >Heart Attack</button>
+
+     <button class="quickBtn" 
+        onclick="searchEmergencyDetails('choking')" 
+        id="quickBtn" >Choking</button>
+
+     <button class="quickBtn" 
+        onclick="searchEmergencyDetails('bleeding')" 
+        id="quickBtn" >Bleeding</button>
+
+    <p class="label">Search emergency:</p>
+    <input class="formBox" type="text" id="searchBox"  value="" />
+
+
+    <button class="submitBtn" onclick="searchEmergencyDetails()" id="searchButton" >Search</button>
+    <hr>
+
+
+
+
+   
+    <div id="emergencyDetails">
+        
+    </div>
+
+    <br><br><br><hr><hr>
+
+
+
+    <a href="admin.html">admin site</a>
+  
+
+
+    <script src="script.js"></script>
+</body>
+</html>

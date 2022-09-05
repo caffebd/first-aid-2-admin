@@ -1,0 +1,64 @@
+br {
+    display: block;
+    margin-top: 24px;
+}
+
+.submitBtn {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(18, 163, 28);
+    
+}
+
+.showAllBtn {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(242, 255, 0);
+    
+}
+
+.clearFirstAid {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 6, 111);
+
+}
+
+.quickBtn {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(194, 39, 39);
+    margin-left: 12px;
+    
+}
+
+.clearBtn {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(194, 39, 39);
+    
+}
+
+.studentBtn {
+    font-size: 18px;
+    color: white;
+    background-color: darkblue
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+}
+.formBox {
+    font-size: 18;
+    background-color: aliceblue;
+}
+
+.formBox::placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+.details {
+    font-size: 18px;
+}
+

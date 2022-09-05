@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>First Aid</title>
+</head>
+<div>
+    <h1>First Aid Admin</h1>
+
+
+
+    <p class="label">Emergency Name:</p>
+    <input class="formBox" type="text" id="nameBox" placeholder="" value="" />
+
+    <p class="label">Immediate action to be taken:</p>
+    <input class="formBox" type="text" id="immediateActionBox"  placeholder="" value="" />
+
+    <p class="label">Further action to be taken:</p>
+    <input class="formBox" type="text" id="furtherActionBox"  placeholder="" value="" />
+
+    <br>
+
+    <button class="submitBtn" onclick="saveFirstAid()" id="saveButton" >Save</button>
+  
+    <hr>
+
+        <p class="label">Edit emergency:</p>
+    <input class="formBox" type="text" id="searchBoxEdit"  value="" />
+
+
+    <button class="submitBtn" onclick="searchForEdit()" id="searchButton" >Search</button>
+    <hr>
+
+    <div id="emergencyDetailsForDelete">
+        
+    </div>
+
+    <button class="clearBtn" onclick="clearDatabase()" >DELETE ALL</button>
+    <hr>
+    <a href="/">home</a>
+    <script src="script.js"></script>
+</body>
+</html>
